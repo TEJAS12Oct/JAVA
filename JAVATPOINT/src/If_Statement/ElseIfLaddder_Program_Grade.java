@@ -1,9 +1,14 @@
 package If_Statement;
-
+import java.util.Scanner;
 public class ElseIfLaddder_Program_Grade {
 
 	public static void main(String[] args) {
-	     int marks=65; 
+//	     int marks=65; 
+		
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Enter Marks : ");
+		int marks = sc.nextInt();
+
 	    if(marks<50){  
 	        System.out.println("fail");  
 	    }  
@@ -23,7 +28,8 @@ public class ElseIfLaddder_Program_Grade {
 	    }else{  
 	        System.out.println("Invalid!");  
 	    } 
-
+		
+		
 	}
 
 }

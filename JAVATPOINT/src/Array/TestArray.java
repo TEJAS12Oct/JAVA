@@ -13,5 +13,11 @@ class TestArray {
 //traversing array  
 		for (int i = 0; i < a.length; i++)// length is the property of array
 			System.out.println(a[i]);
+	
+
+		int b[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+		for (int j = 0; j < b.length; j++)// length is the property of array
+			System.out.println(b[j]);
 	}
+
 }

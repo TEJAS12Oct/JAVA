@@ -14,8 +14,8 @@ public class NestedIf_Program_AgeWt {
 //	    } 
 		
 		//Creating two variables for age and weight    
-	    int age=25;    
-	    int weight=48;      
+	    int age=18;    
+	    int weight=50;      
 	    //applying condition on age and weight    
 	    if(age>=18){      
 	        if(weight>50){    
